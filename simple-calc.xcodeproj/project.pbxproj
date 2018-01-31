@@ -14,6 +14,7 @@
 		3500743C201FE04D000BD808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3500743A201FE04D000BD808 /* LaunchScreen.storyboard */; };
 		35007447201FE04D000BD808 /* simple_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35007446201FE04D000BD808 /* simple_calcTests.swift */; };
 		35007452201FE04D000BD808 /* simple_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35007451201FE04D000BD808 /* simple_calcUITests.swift */; };
+		350074622021D68E000BD808 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350074612021D68E000BD808 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3500744D201FE04D000BD808 /* simple-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35007451201FE04D000BD808 /* simple_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calcUITests.swift; sourceTree = "<group>"; };
 		35007453201FE04D000BD808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350074612021D68E000BD808 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				35007431201FE04C000BD808 /* AppDelegate.swift */,
-				35007433201FE04C000BD808 /* ViewController.swift */,
 				35007435201FE04D000BD808 /* Main.storyboard */,
+				350074612021D68E000BD808 /* HistoryViewController.swift */,
+				35007433201FE04C000BD808 /* ViewController.swift */,
 				35007438201FE04D000BD808 /* Assets.xcassets */,
 				3500743A201FE04D000BD808 /* LaunchScreen.storyboard */,
 				3500743D201FE04D000BD808 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350074622021D68E000BD808 /* HistoryViewController.swift in Sources */,
 				35007434201FE04C000BD808 /* ViewController.swift in Sources */,
 				35007432201FE04C000BD808 /* AppDelegate.swift in Sources */,
 			);

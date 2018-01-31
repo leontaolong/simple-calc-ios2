@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var preNum: Double = 0.0
     var inputNums: [Double] = []
     var optr: String = ""
+    var history: [[String]] = []
+    var record: [String] = []
     
     @IBOutlet weak var lbDisplay: UILabel!
     
@@ -27,27 +29,44 @@ class ViewController: UIViewController {
     @IBAction func optr(_ sender: UIButton) {
         optr = (sender.titleLabel?.text)!
         preNum = Double(input)!
+        
+        record.append(input)
+        record.append(optr)
+        
         if optr == "count" || optr == "avg" {
             self.inputNums.append(preNum)
         }
         if optr == "fact" {
             let fact = getFactorial(Int(Double(input)!))
             lbDisplay.text = String(fact)
+            record.append(String(fact))
+            
+            history.append(record)
+            record = []
+            input = ""
         }
         input = ""
     }
     
     // linked to "="
     @IBAction func output(_ sender: UIButton) {
-        let result = calculate()
-        lbDisplay.text = String(result)
+        let result = String(calculate())
+        lbDisplay.text = result
+        
+        record.append(input)
+        record.append("=")
+        record.append(result)
+        
+        history.append(record)
+        
+        record = []
         input = ""
     }
     
     // linked to "c"
     @IBAction func clear(_ sender: UIButton) {
         input = ""
-        preNum = 0
+        preNum = 0.0
         inputNums = []
         optr = ""
         lbDisplay.text = "0"
@@ -88,6 +107,11 @@ class ViewController: UIViewController {
             result = result * i
         }
         return result
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! HistoryViewController
+        destination.history = history
     }
     
     override func viewDidLoad() {
