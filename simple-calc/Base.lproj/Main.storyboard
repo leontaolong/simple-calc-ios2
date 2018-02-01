@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -22,11 +22,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="simple_calc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsm-ek-A9b">
-                                <rect key="frame" x="0.0" y="667" width="93" height="111"/>
+                                <rect key="frame" x="0.0" y="628.33333333333337" width="103" height="107.66666666666663"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="0">
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuI-zt-RAP">
-                                <rect key="frame" x="282" y="667" width="93" height="111"/>
+                                <rect key="frame" x="311" y="628.33333333333337" width="103" height="107.66666666666663"/>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="+">
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpR-T5-wVL">
-                                <rect key="frame" x="0.0" y="554.66666666666663" width="93" height="111.33333333333337"/>
+                                <rect key="frame" x="0.0" y="520.33333333333337" width="103" height="107"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="1">
@@ -59,7 +59,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v19-kL-hrn">
-                                <rect key="frame" x="94" y="554.66666666666663" width="93" height="111.33333333333337"/>
+                                <rect key="frame" x="104" y="520.33333333333337" width="102.66666666666669" height="107"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="2">
@@ -70,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ch-63-dph">
-                                <rect key="frame" x="188" y="554.66666666666663" width="93" height="111.33333333333337"/>
+                                <rect key="frame" x="207.66666666666666" y="520.33333333333337" width="102.33333333333334" height="107"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="3">
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAs-zm-Mc8">
-                                <rect key="frame" x="282" y="554.66666666666663" width="93" height="111.33333333333337"/>
+                                <rect key="frame" x="311" y="520.33333333333337" width="103" height="107"/>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="-">
@@ -92,7 +92,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOf-u7-Cjm">
-                                <rect key="frame" x="0.0" y="443.33333333333331" width="93" height="110.33333333333331"/>
+                                <rect key="frame" x="0.0" y="411.66666666666669" width="103" height="107.66666666666669"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="4">
@@ -103,7 +103,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmw-R1-NIU">
-                                <rect key="frame" x="94" y="443.33333333333331" width="93" height="110.33333333333331"/>
+                                <rect key="frame" x="104" y="411.66666666666669" width="102.66666666666669" height="107.66666666666669"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="5">
@@ -114,7 +114,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAQ-Gv-nqB">
-                                <rect key="frame" x="188" y="443.33333333333331" width="93" height="110.33333333333331"/>
+                                <rect key="frame" x="207.66666666666666" y="411.66666666666669" width="102.33333333333334" height="107.66666666666669"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="6">
@@ -125,7 +125,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2k7-z2-hhb">
-                                <rect key="frame" x="282" y="443.33333333333331" width="93" height="110.33333333333331"/>
+                                <rect key="frame" x="311" y="411.66666666666669" width="103" height="107.66666666666669"/>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="x">
@@ -136,7 +136,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfk-0t-Aw2">
-                                <rect key="frame" x="0.0" y="331" width="93" height="111.33333333333331"/>
+                                <rect key="frame" x="0.0" y="303.66666666666669" width="103" height="107"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="7">
@@ -147,7 +147,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0q-IL-q5f">
-                                <rect key="frame" x="94" y="331" width="93" height="111.33333333333331"/>
+                                <rect key="frame" x="104" y="303.66666666666669" width="102.66666666666669" height="107"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="8">
@@ -158,7 +158,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYw-Ul-wqg">
-                                <rect key="frame" x="188" y="331" width="93" height="111.33333333333331"/>
+                                <rect key="frame" x="207.66666666666666" y="303.66666666666669" width="102.33333333333334" height="107"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="9">
@@ -169,7 +169,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-P7-wS8">
-                                <rect key="frame" x="282" y="331" width="93" height="111.33333333333331"/>
+                                <rect key="frame" x="311" y="303.66666666666669" width="103" height="107"/>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="/">
@@ -180,7 +180,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6w-wz-oWm">
-                                <rect key="frame" x="0.0" y="219" width="93" height="111"/>
+                                <rect key="frame" x="0.0" y="195" width="103" height="107.66666666666669"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
                                 <state key="normal" title="count">
@@ -191,7 +191,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXq-nY-uLj">
-                                <rect key="frame" x="94" y="219" width="93" height="111"/>
+                                <rect key="frame" x="104" y="195" width="102.66666666666669" height="107.66666666666669"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
                                 <state key="normal" title="avg">
@@ -202,7 +202,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jre-0t-QaP">
-                                <rect key="frame" x="188" y="219" width="93" height="111"/>
+                                <rect key="frame" x="207.66666666666666" y="195" width="102.33333333333334" height="107.66666666666669"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
                                 <state key="normal" title="fact">
@@ -213,18 +213,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZK-Is-GFV">
-                                <rect key="frame" x="282" y="219" width="93" height="111"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="311" y="195" width="103" height="107.66666666666669"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="27"/>
-                                <state key="normal" title="C">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="%">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0iZ-cP-q0b"/>
+                                    <action selector="optr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NxO-ZL-hUO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIp-fi-dO1">
-                                <rect key="frame" x="15" y="79" width="345" height="90"/>
+                                <rect key="frame" x="15" y="55" width="384" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="IXd-8C-28r"/>
                                 </constraints>
@@ -233,7 +233,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-uQ-wAZ">
-                                <rect key="frame" x="94" y="667" width="93" height="111"/>
+                                <rect key="frame" x="104" y="628.33333333333337" width="102.66666666666669" height="107.66666666666663"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title=".">
@@ -245,7 +245,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxQ-uM-MRK">
-                                <rect key="frame" x="188" y="667" width="93" height="111"/>
+                                <rect key="frame" x="207.66666666666666" y="628.33333333333337" width="102.33333333333334" height="107.66666666666663"/>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="=">
@@ -256,7 +256,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sir-tK-hj0">
-                                <rect key="frame" x="0.0" y="63" width="53" height="26"/>
+                                <rect key="frame" x="0.0" y="39" width="53" height="26"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
                                 <state key="normal" title="Hist">
@@ -264,6 +264,20 @@
                                 </state>
                                 <connections>
                                     <segue destination="pxM-Wa-owS" kind="show" id="78x-7N-906"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItW-Fb-7Pg">
+                                <rect key="frame" x="0.0" y="87" width="53" height="26"/>
+                                <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="wvC-9s-yMu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u7U-In-MCa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -305,11 +319,13 @@
                             <constraint firstItem="pZK-Is-GFV" firstAttribute="height" secondItem="JuI-zt-RAP" secondAttribute="height" id="Q3t-l4-ems"/>
                             <constraint firstItem="DOf-u7-Cjm" firstAttribute="width" secondItem="MAQ-Gv-nqB" secondAttribute="width" id="QLD-fn-lXB"/>
                             <constraint firstItem="lfk-0t-Aw2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rcf-kF-NsW"/>
+                            <constraint firstItem="ItW-Fb-7Pg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="67" id="TxW-Zv-z3G"/>
                             <constraint firstItem="g3u-uQ-wAZ" firstAttribute="leading" secondItem="tsm-ek-A9b" secondAttribute="trailing" constant="1" id="UDO-1x-ykq"/>
                             <constraint firstItem="XIp-fi-dO1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="VFo-dj-wvY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pZK-Is-GFV" secondAttribute="trailing" id="WEm-Cd-Y5j"/>
                             <constraint firstItem="g3u-uQ-wAZ" firstAttribute="top" secondItem="v19-kL-hrn" secondAttribute="bottom" constant="1" id="WTg-ZZ-eVh"/>
                             <constraint firstItem="pAs-zm-Mc8" firstAttribute="top" secondItem="2k7-z2-hhb" secondAttribute="bottom" constant="1" id="WWJ-cC-X80"/>
+                            <constraint firstItem="ItW-Fb-7Pg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wq3-Uf-kXQ"/>
                             <constraint firstItem="Q6w-wz-oWm" firstAttribute="height" secondItem="DOf-u7-Cjm" secondAttribute="height" id="WqK-Bt-12M"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7d4-P7-wS8" secondAttribute="trailing" id="XAA-a7-iBJ"/>
                             <constraint firstItem="tsm-ek-A9b" firstAttribute="width" secondItem="vxQ-uM-MRK" secondAttribute="width" id="Y8B-aW-lXW"/>
@@ -365,18 +381,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="230" y="130"/>
+            <point key="canvasLocation" x="228.75" y="128.87323943661971"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="1oq-sQ-Ox0">
             <objects>
                 <viewController id="pxM-Wa-owS" customClass="HistoryViewController" customModule="simple_calc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="slP-iE-wh1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6P-sd-4fY">
-                                <rect key="frame" x="86" y="709" width="203" height="40"/>
+                                <rect key="frame" x="86" y="667" width="242" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
                                 <state key="normal" title="BACK">
@@ -388,7 +404,7 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVN-VV-2Od">
-                                <rect key="frame" x="0.0" y="71" width="375" height="579"/>
+                                <rect key="frame" x="0.0" y="47" width="414" height="561"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
                         </subviews>
